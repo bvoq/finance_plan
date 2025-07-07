@@ -1,0 +1,62 @@
+{
+  "allocations": {
+    "conservative": {
+      "name": "Conservative Portfolio",
+      "description": "Conservative allocation with 30% cash reserve and gold exposure",
+      "contribution_percentage": 0.95,
+      "holdings": {
+        "4GLD.DE": 0.05,
+        "AVDV": 0.10,
+        "AVEM": 0.00,
+        "AVUV": 0.05,
+        "CHF": 0.15,
+        "CSBGC0.SW": 0.15,
+        "EMQQ": 0.0,
+        "GLDM": 0.0,
+        "GOAT.SW": 0.20,
+        "QQQ": 0,
+        "SGOL": 0,
+        "SRECHA.SW": 0.10,
+        "VBR": 0.05,
+        "VEUR.SW": 0.0,
+        "VNQ": 0.05,
+        "VSS": 0,
+        "VUG": 0.00,
+        "XMCH.SW": 0,
+        "ZGLD.SW": 0.05,
+        "ZGLD.TO": 0.05,
+        "ZPRX.DE": 0
+      },
+      "comments": {
+        "1540.T": "Gold in Japan in Yen, TER 0.40%",
+        "4GLD.DE": "gold in germany in Euro, TER 0%, larger bid-ask spreads",
+        "AVDV": "alternatively ISVL or DISV or AVSV.SW",
+        "AVUV": "alternatively VBR or DFSV or AVSV.SW",
+        "BSLGOLDETF.NS": "Gold in India in Rupees, TER 0.47%",
+        "CH0117052586": "european exCH real estate 11705258.SW",
+        "CHF": "30% cash allocation",
+        "CSBGC0.SW": " instead of 30% cash",
+        "GOAT.SW": "same fund as MOTG but CHF based + UCITS compliant with same TER",
+        "IAUM": "Gold in New York in USD, TER 0.09%",
+        "SGLN": "Gold in London in GBP, TER # too risky, underpaid workforce",
+        "SRECHA.SW": "alternatively SRFCHA.SW",
+        "VNQ": "US real-estate (no good alternatives)",
+        "XMCH.SW": "China ETF",
+        "ZGLD.SW": "Gold in Zurich in CHF, 0.40% TER",
+        "ZGLD.TO": "gold in Toronto in CAD, TER 0.20%",
+        "ZPRX.DE": "European small value cap"
+      }
+    },
+    "satellite": {
+      "name": "Satellite Portfolio",
+      "description": "High-risk leveraged ETF allocation",
+      "contribution_percentage": 0.05,
+      "holdings": {
+        "DRN": 0.25,
+        "TMF": 0.25,
+        "TQQQ": 0.25,
+        "UGLD": 0.25
+      }
+    }
+  }
+}
